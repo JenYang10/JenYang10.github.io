@@ -1,0 +1,40 @@
+div  p {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+div + p {
+	text-align: center;
+	background-color: blue;
+	color: yellow;
+}
+
+p b:	first-child {
+	color: blue;
+}
+
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: blue;
+}
+
+
+::marker {
+  color: blue;
+  font-size: 24px;
+}
+
+::selection {
+  color: white;
+  background: green;
+}	
+
