@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head> <!--參考來源: 講義->
+		<title>This is my website</title> 
+		<meta name="author" content="姓名:楊蓁 學號:109403031"> 
+		<meta name="description" content="這是一個介紹我本人的網頁"> 
+		<link rel="stylesheet" href="mystyle1.css"> <!--css-->
+		<script> 
+			function myFunction() {
+			document.getElementById("magic").innerHTML = "請多多指教!";
+			}
+		</script>	
+			
+	</head>
+	<body>
+		<div style ="background-color:#E9E9E9">
+			<p style="background-color:gray;color:yellow">歡迎光臨!這是 <span style="ackground-color:#F0F8FF;color:#0000FF">楊蓁</span>的網頁!</p>
+			<p id="magic">Hey...</p> 
+			<button type="button" onclick="myFunction()">Magic Button</button> 
+			<section><p>使用以下表格來自我介紹~</p><section> <!--css 黑底白字-->
+
+		</div>
+		<p>你好!</p> <!--css藍底黃字-->
+    <br>
+    <h1><p>來看看我的<b>自我</b><b>介紹</b>吧</p></h1> <!--css介紹為藍字，反白為綠底白字-->
+    <hr>
+		
+		<table border="3"> 
+			<caption>我的個人簡歷表</caption>
+			
+			<thead style="background-color: #FFE681">
+				<tr>
+					<th>我的照片</th><th>介紹</th>
+				</tr>
+			</thead>
+			
+			<tbody style="background-color: #AEE1CD">
+				<tr>
+					<td><img src="images/me.jpg" alt="我的圖片" width="200" height="200"></td>
+					<td>
+						<ul> 
+							<li>姓名: 楊蓁</li> <!--css有序和無序排列的顏色變藍色-->
+							<li><a href="https://www.facebook.com/profile.php?id=100054365707614" target="_blank">我的臉書連結</li> <!--css原色為紅色，點過變綠色，游標在上面為藍色-->
+              <li>目前就讀: 中央大學資管系二年級</li>
+              <li>我的學號:109403031</li>
+              <li>我有參加:
+              <ol>
+                  <li>吉他社</li>
+                  <li>登山社</li>
+                  <li>資管系學會活動部</li>
+                  <li>資管系女籃</li>
+              </ol>
+						</ul>	
+					</td>
+				</tr>
+			</tbody>
+		    <tfoot style="background-color: #D1CDDA">
+				<tr>
+					<td colspan="3">謝謝觀看，附上一隻可愛的貓咪</td>
+          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fppfocus.com%2F0%2Fpec8ed32b.html&psig=AOvVaw3EEO-mmTtDDAA60M3jeobz&ust=1654588323608000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCHqP6rmPgCFQAAAAAdAAAAABAJ" alt="這是一隻可愛的貓咪" width="200" height="200">
+				</tr>
+			</tfoot>
+		</table>	
+				
+	</body>		
+</html>
